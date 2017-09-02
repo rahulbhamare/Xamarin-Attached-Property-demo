@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:AttachedPropertyDemo"
+             x:Class="AttachedPropertyDemo.MainPage">
+    <ContentPage.BindingContext>
+        <local:MainPageViewModel x:Name="MainPageVM" x:FieldModifier="public"/>
+    </ContentPage.BindingContext>
+    
+    <!--Using IsAttached property in XAML here-->
+	<Label x:Name="WelcomeText"            
+           local:MainPageViewModel.IsAttached="True"
+           VerticalOptions="Center" 
+           HorizontalOptions="Center" 
+           TextColor="Gray" FontSize="Medium" />
+
+</ContentPage>

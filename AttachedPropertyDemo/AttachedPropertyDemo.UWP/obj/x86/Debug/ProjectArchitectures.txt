@@ -1,0 +1,2 @@
+C:\Users\rahulb\documents\visual studio 2017\Projects\AttachedPropertyDemo\AttachedPropertyDemo\AttachedPropertyDemo.UWP\AttachedPropertyDemo.UWP.csproj;x86
+C:\Users\rahulb\documents\visual studio 2017\Projects\AttachedPropertyDemo\AttachedPropertyDemo\AttachedPropertyDemo\AttachedPropertyDemo.csproj;neutral
